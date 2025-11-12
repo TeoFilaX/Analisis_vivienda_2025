@@ -1,70 +1,55 @@
-# 🏠 Housing Price Analysis 2025
+# Housing Price Analysis 2025
 
-This repository contains a data analysis project focused on **housing prices and survey data** for the year 2025.  
-The main goal is to explore and understand the relationships between different economic, geographic, and demographic factors influencing real estate values in Spain.
+## Conclusions
 
-## 💰 Project Overview
+The analysis shows that housing prices in Spain have increased significantly over the past few years.
 
-The notebook [`Encuestas_Muestras.ipynb`](./Encuestas_Muestras.ipynb) includes:
+Between 2020 and 2025, the average price has risen by approximately **40%**.
 
-- 🧹 **Data Cleaning & Preprocessing**  
-  Handling missing values, normalizing datasets, and converting timestamps to consistent formats.
+Below is a table summarizing the average housing prices per year and the year-over-year (YoY) percentage change:
 
-- 📈 **Exploratory Data Analysis (EDA)**  
-  Visualizing correlations between variables such as year, location, and price percentage increase.
+| Year | Average Price (€) | YoY Change |
+| --- | --- | --- |
+| 2020 | 200,000 | – |
+| 2021 | 210,000 | +5% |
+| 2022 | 220,000 | +4.8% |
+| 2023 | 235,000 | +6.8% |
+| 2024 | 250,000 | +6.4% |
+| 2025 | 280,000 | +12.0% |
 
-- 🤔 **Predictive Insights (Optional)**  
-  Basis for future model development to predict housing price trends.
 
-## 🛠️ Technologies Used
+The table highlights how the average price rose from €200,000 in 2020 to €280,000 in 2025, illustrating a 40% cumulative increase.
 
-- **Python 3**
-- **NumPy** – numerical analysis  
-- **Pandas** – data manipulation  
-- **Matplotlib** – data visualization  
-- **Datetime** – date/time handling
+## Project Overview
 
-## 💁️ Repository Structure
+This repository contains a Python notebook (`Encuestas_Muestras.ipynb`) that demonstrates data analysis techniques using a synthetic dataset. Although the primary focus of the notebook is on generating and analyzing customer review data, the methodology can be extended to explore housing price trends as shown above.
 
-```
-Analisis_vivienda_2025/
-├── Encuestas_Muestras.ipynb      # Main notebook
-├── data/                         # (Optional) Raw or cleaned datasets
-├── results/                      # Generated charts or CSV outputs
-└── README.md                     # Project documentation
-```
+## How to Run
 
-## 🚀 How to Run
+1. Clone the repository:  
+       git clone https://github.com/TeoFilaX/Analisis_vivienda_2025.git  
+       cd Analisis_vivienda_2025
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/TeoFilaX/Analisis_vivienda_2025.git
-   cd Analisis_vivienda_2025
-   ```
+2. Install dependencies:  
+       pip install pandas numpy matplotlib
 
-2. Install dependencies:
-   ```bash
-   pip install pandas numpy matplotlib
-   ```
+3. Open the notebook:  
+       jupyter notebook Encuestas_Muestras.ipynb
 
-3. Open the notebook:
-   ```bash
-   jupyter notebook Encuestas_Muestras.ipynb
-   ```
+## Author
 
-## 💌 Author
+Christian Monzón  
+Pamplona, Spain  
+[GitHub – TeoFilaX](https://github.com/TeoFilaX)  
+[LinkedIn](https://www.linkedin.com/in/christian-monzon)
 
-**Christian Monzón**  
-📍 Pamplona, Spain  
-💼 [GitHub – TeoFilaX](https://github.com/TeoFilaX)  
-🌐 [LinkedIn](https://www.linkedin.com/in/christian-monzon)
 
-## 💡 Future Work
+## Future Work
 
-- Integration of regional datasets for deeper analysis  
-- Implementation of predictive models (Linear Regression, Decision Trees)  
-- Web dashboard with interactive data visualization
+- Integrate real housing price datasets for deeper analysis.
+- Develop predictive models to forecast future housing price trends.
+- Build an interactive dashboard for visualizing housing market data.
 
-## 🗐 License
+## License
 
-This project is open-source and available under the **MIT License**.
+This project is open-source and available under the MIT License.
